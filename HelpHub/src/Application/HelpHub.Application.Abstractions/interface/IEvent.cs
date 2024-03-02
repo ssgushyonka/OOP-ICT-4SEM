@@ -2,7 +2,7 @@
 
 public interface IEvent
 {
-    void new_event();
+    void NewEvent();
     void Edit();
     void Join();
 }
