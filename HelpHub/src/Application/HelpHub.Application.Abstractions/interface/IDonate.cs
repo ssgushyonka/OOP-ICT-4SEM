@@ -2,7 +2,7 @@
 
 public interface IDonate
 {
-    void new_donate();
-    void Sum_donate();
+    void NewDonate();
+    void SumDonate();
     void History();
 }
