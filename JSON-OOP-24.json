@@ -1,8 +1,8 @@
-Регистрация нового пользователя (Волонтер) - POST api/v1/users/register
+Регистрация нового пользователя - POST api/v1/users/register
 request - {"name": "Имя пользователя", "email": "example@example.com", "password": "password123", "role": "volunteer"}
 response - {"userID": "u000001"}
 
-Авторизация пользователя (Волонтер) - POST api/v1/users/login
+Авторизация пользователя - POST api/v1/users/login
 request - {"email": "example@example.com", "password": "password123"}
 response - 
 
