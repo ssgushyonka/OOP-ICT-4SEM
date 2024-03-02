@@ -1,0 +1,715 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\HelpHub\\HelpHub.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj",
+        "projectName": "HelpHub.Application.Abstractions",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "SourceKit.Generators.Builder": {
+              "target": "Package",
+              "version": "[1.1.24, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Contracts\\HelpHub.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Contracts\\HelpHub.Application.Contracts.csproj",
+        "projectName": "HelpHub.Application.Contracts",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Contracts\\HelpHub.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj",
+        "projectName": "HelpHub.Application.Models",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\HelpHub.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\HelpHub.Application.csproj",
+        "projectName": "HelpHub.Application",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\HelpHub.Application.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj"
+              },
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Contracts\\HelpHub.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Contracts\\HelpHub.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\HelpHub\\HelpHub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\HelpHub\\HelpHub.csproj",
+        "projectName": "HelpHub",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\HelpHub\\HelpHub.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\HelpHub\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\HelpHub.Application.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\HelpHub.Application.csproj"
+              },
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj"
+              },
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\HelpHub.Presentation.Http.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\HelpHub.Presentation.Http.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Logging": {
+              "target": "Package",
+              "version": "[1.0.89, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.15, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj",
+        "projectName": "HelpHub.Infrastructure.Persistence",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Postgres": {
+              "target": "Package",
+              "version": "[1.1.89, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\HelpHub.Presentation.Http.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\HelpHub.Presentation.Http.csproj",
+        "projectName": "HelpHub.Presentation.Http",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\HelpHub.Presentation.Http.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Itmo.Dev.Editorconfig": {
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "SourceKit.Generators.Builder": "[1.1.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "Swashbuckle.AspNetCore": "[6.5.0, )",
+            "System.Linq.Async": "[6.0.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

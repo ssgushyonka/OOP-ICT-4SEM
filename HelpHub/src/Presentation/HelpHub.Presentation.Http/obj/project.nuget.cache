@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "oHvzljXn4ZmXhGNM4sFbAZbRQoGHg41D3qrPf+KBpv79hDn8xhUMi2UrC+hU7q+/rwATXzEgLozedsRiZUckHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Presentation\\HelpHub.Presentation.Http\\HelpHub.Presentation.Http.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\semen\\.nuget\\packages\\itmo.dev.editorconfig\\1.0.2\\itmo.dev.editorconfig.1.0.2.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
