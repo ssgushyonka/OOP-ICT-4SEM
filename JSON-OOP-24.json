@@ -1,0 +1,47 @@
+Регистрация нового пользователя (Волонтер) - POST api/v1/users/register
+request - {"name": "Имя пользователя", "email": "example@example.com", "password": "password123", "role": "volunteer"}
+response - {"userID": "u000001"}
+
+Авторизация пользователя (Волонтер) - POST api/v1/users/login
+request - {"email": "example@example.com", "password": "password123"}
+response - {}
+
+Обновление информации о пользователе (Волонтер) - PUT api/v1/users/update
+request - {"userId": "u000001", "name": "Новое Имя", "email": "new@example.com", "password": "new_password", "role": "Новая роль"}
+response - {"message": "Информация успешно обновлена"}
+
+Создание нового мероприятия - POST api/v1/events/create
+request - {"name": "Название мероприятия", "location": "Местоположение", "dateStart": "2022-08-20", "dateEnd": "2022-08-21", “organisator”: “Название организации”}
+response - {"eventID": "e0001"}
+
+Изменение информации о мероприятии - PUT api/v1/events/update
+request - {"eventId": "e0001", "name": "Новое название", "location": "Новое местоположение",  "dateStart": "2026-08-20", "dateEnd": "2026-08-21",  “organisator”: “Новая организация”}
+response - {"message": "Информация о мероприятии успешно обновлена"}
+
+Поиск мероприятий - GET api/v1/events/search
+request - {"eventId": "e0001", "name": "Название", "location": "Местоположение",  "dateStart": "2026-08-20", "dateEnd": "2026-08-21",  “organisator”: “Организация”}
+response - {"events": ["eventId": "e0001", "name": "Название"]}
+
+Присоединение волонтера к мероприятию - POST api/v1/events/join
+request - {"eventId": "e0001", "userId": "u00001"}
+response - {"message": "Вы успешно присоединились к мероприятию"}
+
+Регистрация новой организации - POST api/v1/organizations/register
+request - {"name": "Название организации", "description": "Описание организации", "contacts": "+7(123)456-78-90"}
+response - {"organizationId": "o001"}
+
+Изменение информации об организации - PUT api/v1/organizations/update
+request - {"organizationId": "o001", "name": "Новое название", "description": "Новое описание", "contacts": "Новые контакты"}
+response - {"message": "Информация об организации успешно обновлена"}
+
+Оформление нового доната - POST api/v1/donations/create
+request - {"coin": 100, "userID": "u000006", "eventId": "e0045"}
+response - {"donationId": "d000074"}
+
+Просмотр истории донатов - GET api/v1/donations/history
+request - {"userID": "u00006"}
+response - { "donationId": d000095, "coin": 100}
+
+Расчет суммы для события - POST api/v1/donations/calculate
+request - {"eventId": "e0045", "dateStart": "2024-02-20", "dateEnd": "2024-03-21"}
+response - {"totalAmount": 500}
