@@ -6,7 +6,7 @@ response - {"userID": "u000001"}
 request - {"email": "example@example.com", "password": "password123"}
 response - 
 
-Обновление информации о пользователе (Волонтер) - PUT api/v1/users/update
+Обновление информации о пользователе - PUT api/v1/users/update
 request - {"userId": "u000001", "name": "Новое Имя", "email": "new@example.com", "password": "new_password", "role": "Новая роль"}
 response - {"message": "Информация успешно обновлена"}
 
