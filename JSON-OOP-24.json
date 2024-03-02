@@ -4,7 +4,7 @@ response - {"userID": "u000001"}
 
 Авторизация пользователя (Волонтер) - POST api/v1/users/login
 request - {"email": "example@example.com", "password": "password123"}
-response - {}
+response - 
 
 Обновление информации о пользователе (Волонтер) - PUT api/v1/users/update
 request - {"userId": "u000001", "name": "Новое Имя", "email": "new@example.com", "password": "new_password", "role": "Новая роль"}
