@@ -5,5 +5,5 @@ public interface IEvent
     void NewEvent();
     void Edit();
     void Join();
-    void Kik();
+    void Kick();
 }
