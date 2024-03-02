@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rekza/JtCbhqrw8mAtXJXvjTIHb3p9jzQ++mytiLArQ7GZdfYm/l1vfhBtxcj93O+jh96N2uI5f6CPXgquZAqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application\\HelpHub.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\semen\\.nuget\\packages\\itmo.dev.editorconfig\\1.0.2\\itmo.dev.editorconfig.1.0.2.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit\\1.1.24\\sourcekit.1.1.24.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.mustbepartial\\1.1.24\\sourcekit.analyzers.mustbepartial.1.1.24.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.mustbepartial.annotations\\1.1.24\\sourcekit.analyzers.mustbepartial.annotations.1.1.24.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.generators.builder\\1.1.24\\sourcekit.generators.builder.1.1.24.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.generators.builder.annotations\\1.1.24\\sourcekit.generators.builder.annotations.1.1.24.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

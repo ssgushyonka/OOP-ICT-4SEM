@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\HelpHub.Application.Models\HelpHub.Application.Models.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+    </ItemGroup>
+
+</Project>

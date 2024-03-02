@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Application\HelpHub.Application.Abstractions\HelpHub.Application.Abstractions.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Itmo.Dev.Platform.Postgres"/>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions"/>
+    </ItemGroup>
+
+</Project>
