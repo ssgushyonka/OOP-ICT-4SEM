@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appication", "Appication", "{472EDB5E-9F2C-4551-AC96-D52701C1A636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub.Application", "src\Application\HelpHub.Application\HelpHub.Application.csproj", "{CB41BAB3-2742-49A4-9534-C33C9CC21103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub.Application.Abstractions", "src\Application\HelpHub.Application.Abstractions\HelpHub.Application.Abstractions.csproj", "{0284A1FB-1B1E-4B7A-B6B3-4D34E5CF287A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub.Application.Contracts", "src\Application\HelpHub.Application.Contracts\HelpHub.Application.Contracts.csproj", "{F2C0DDDE-EECA-4AA9-8D04-A4B054A39D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub.Application.Models", "src\Application\HelpHub.Application.Models\HelpHub.Application.Models.csproj", "{2E598FB2-8270-4A19-B393-8A67583EDE40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{763BFE0A-AFCF-4440-931D-52F4F1FD5DD0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6612692B-A111-4856-A058-9CF4C2672F92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{683CE8ED-DAEA-4EAB-B1B4-FF5098763CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub.Infrastructure.Persistence", "src\Infrastructure\HelpHub.Infrastructure.Persistence\HelpHub.Infrastructure.Persistence.csproj", "{E0C7A0FA-E3B6-4C7C-8360-CD72806AAC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub", "src\HelpHub\HelpHub.csproj", "{AE85F8D2-4986-40AE-A92C-683CE1DB59BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpHub.Presentation.Http", "src\Presentation\HelpHub.Presentation.Http\HelpHub.Presentation.Http.csproj", "{AE079871-926E-427E-9F16-8FFD3C6B6CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{472EDB5E-9F2C-4551-AC96-D52701C1A636} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{CB41BAB3-2742-49A4-9534-C33C9CC21103} = {472EDB5E-9F2C-4551-AC96-D52701C1A636}
+		{0284A1FB-1B1E-4B7A-B6B3-4D34E5CF287A} = {472EDB5E-9F2C-4551-AC96-D52701C1A636}
+		{F2C0DDDE-EECA-4AA9-8D04-A4B054A39D4F} = {472EDB5E-9F2C-4551-AC96-D52701C1A636}
+		{2E598FB2-8270-4A19-B393-8A67583EDE40} = {472EDB5E-9F2C-4551-AC96-D52701C1A636}
+		{6612692B-A111-4856-A058-9CF4C2672F92} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{683CE8ED-DAEA-4EAB-B1B4-FF5098763CFF} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{E0C7A0FA-E3B6-4C7C-8360-CD72806AAC66} = {6612692B-A111-4856-A058-9CF4C2672F92}
+		{AE85F8D2-4986-40AE-A92C-683CE1DB59BC} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{AE079871-926E-427E-9F16-8FFD3C6B6CC2} = {683CE8ED-DAEA-4EAB-B1B4-FF5098763CFF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB41BAB3-2742-49A4-9534-C33C9CC21103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB41BAB3-2742-49A4-9534-C33C9CC21103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB41BAB3-2742-49A4-9534-C33C9CC21103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB41BAB3-2742-49A4-9534-C33C9CC21103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0284A1FB-1B1E-4B7A-B6B3-4D34E5CF287A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0284A1FB-1B1E-4B7A-B6B3-4D34E5CF287A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0284A1FB-1B1E-4B7A-B6B3-4D34E5CF287A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0284A1FB-1B1E-4B7A-B6B3-4D34E5CF287A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C0DDDE-EECA-4AA9-8D04-A4B054A39D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C0DDDE-EECA-4AA9-8D04-A4B054A39D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C0DDDE-EECA-4AA9-8D04-A4B054A39D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C0DDDE-EECA-4AA9-8D04-A4B054A39D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E598FB2-8270-4A19-B393-8A67583EDE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E598FB2-8270-4A19-B393-8A67583EDE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E598FB2-8270-4A19-B393-8A67583EDE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E598FB2-8270-4A19-B393-8A67583EDE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C7A0FA-E3B6-4C7C-8360-CD72806AAC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C7A0FA-E3B6-4C7C-8360-CD72806AAC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C7A0FA-E3B6-4C7C-8360-CD72806AAC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C7A0FA-E3B6-4C7C-8360-CD72806AAC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE85F8D2-4986-40AE-A92C-683CE1DB59BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE85F8D2-4986-40AE-A92C-683CE1DB59BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE85F8D2-4986-40AE-A92C-683CE1DB59BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE85F8D2-4986-40AE-A92C-683CE1DB59BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE079871-926E-427E-9F16-8FFD3C6B6CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE079871-926E-427E-9F16-8FFD3C6B6CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE079871-926E-427E-9F16-8FFD3C6B6CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE079871-926E-427E-9F16-8FFD3C6B6CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
