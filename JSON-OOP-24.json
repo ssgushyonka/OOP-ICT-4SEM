@@ -42,6 +42,6 @@ response - {"donationId": "d000074"}
 request - {"userID": "u00006"}
 response - { "donationId": d000095, "coin": 100}
 
-Расчет суммы для события - POST api/v1/donations/calculate
+Расчет суммы для события - GET api/v1/donations/calculate
 request - {"eventId": "e0045", "dateStart": "2024-02-20", "dateEnd": "2024-03-21"}
 response - {"totalAmount": 500}
