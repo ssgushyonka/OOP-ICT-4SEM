@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj": {}
+    "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
+    "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj",
         "projectName": "HelpHub.Application.Abstractions",
-        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj",
         "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\obj\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -27,22 +27,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
-                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj"
+              "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj"
               }
             }
           }
         },
         "warningProperties": {
           "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1605"
+          ],
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,19 +49,22 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Postgres": {
+              "target": "Package",
+              "version": "[1.1.89, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )",
               "versionCentrallyManaged": true
             },
             "SourceKit.Generators.Builder": {
               "target": "Package",
               "version": "[1.1.24, )",
-              "versionCentrallyManaged": true
-            },
-            "StyleCop.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.2.0-beta.435, )",
               "versionCentrallyManaged": true
             },
             "System.Linq.Async": {
@@ -73,12 +74,25 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "EntityFramework": "[6.4.4, )",
+            "FluentMigrator.Runner": "[5.1.0, )",
+            "Grpc.Core.Api": "[2.40.0, )",
+            "HttpResultMonad.HttpResultOnHttpClient": "[1.0.1, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.89, )",
             "Itmo.Dev.Platform.Logging": "[1.0.89, )",
             "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "MediatR": "[12.2.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
+            "Microsoft.Extensions.Configuration.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "NLog": "[5.2.8, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -104,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
+    "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj",
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj",
         "projectName": "HelpHub.Application.Models",
-        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Models\\HelpHub.Application.Models.csproj",
         "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Models\\obj\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Models\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -131,14 +145,12 @@
         },
         "warningProperties": {
           "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1605"
+          ],
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -147,7 +159,27 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Postgres": {
+              "target": "Package",
+              "version": "[1.1.89, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )",
               "versionCentrallyManaged": true
             },
             "StyleCop.Analyzers": {
@@ -164,12 +196,25 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
+            "EntityFramework": "[6.4.4, )",
+            "FluentMigrator.Runner": "[5.1.0, )",
+            "Grpc.Core.Api": "[2.40.0, )",
+            "HttpResultMonad.HttpResultOnHttpClient": "[1.0.1, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.89, )",
             "Itmo.Dev.Platform.Logging": "[1.0.89, )",
             "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "MediatR": "[12.2.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
+            "Microsoft.Extensions.Configuration.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "NLog": "[5.2.8, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",
@@ -195,14 +240,14 @@
         }
       }
     },
-    "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj": {
+    "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj",
         "projectName": "HelpHub.Infrastructure.Persistence",
-        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj",
+        "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\HelpHub.Infrastructure.Persistence.csproj",
         "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Infrastructure\\HelpHub.Infrastructure.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -218,22 +263,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj"
+              "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\semen\\Desktop\\HelpHub\\src\\Application\\HelpHub.Application.Abstractions\\HelpHub.Application.Abstractions.csproj"
               }
             }
           }
         },
         "warningProperties": {
           "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1605"
+          ],
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -242,7 +285,12 @@
           "dependencies": {
             "Itmo.Dev.Editorconfig": {
               "target": "Package",
-              "version": "[1.0.2, )",
+              "version": "[1.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Itmo.Dev.Platform.Logging": {
+              "target": "Package",
+              "version": "[1.0.94, )",
               "versionCentrallyManaged": true
             },
             "Itmo.Dev.Platform.Postgres": {
@@ -250,16 +298,29 @@
               "version": "[1.1.89, )",
               "versionCentrallyManaged": true
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.10, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[8.0.0, )",
               "versionCentrallyManaged": true
             },
-            "StyleCop.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[1.2.0-beta.435, )",
+              "version": "[7.0.4, )",
               "versionCentrallyManaged": true
             },
             "System.Linq.Async": {
@@ -269,12 +330,25 @@
             }
           },
           "centralPackageVersions": {
-            "Itmo.Dev.Editorconfig": "[1.0.2, )",
-            "Itmo.Dev.Platform.Logging": "[1.0.89, )",
+            "EntityFramework": "[6.4.4, )",
+            "FluentMigrator.Runner": "[5.1.0, )",
+            "Grpc.Core.Api": "[2.40.0, )",
+            "HttpResultMonad.HttpResultOnHttpClient": "[1.0.1, )",
+            "Itmo.Dev.Editorconfig": "[1.0.1, )",
+            "Itmo.Dev.Platform.Common": "[1.1.89, )",
+            "Itmo.Dev.Platform.Logging": "[1.0.94, )",
             "Itmo.Dev.Platform.Postgres": "[1.1.89, )",
+            "MediatR": "[12.2.0, )",
+            "Microsoft.AspNetCore.Http.Abstractions": "[2.2.0, )",
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "[7.0.15, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.10, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[7.0.10, )",
+            "Microsoft.Extensions.Configuration.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.DependencyInjection.Abstractions": "[8.0.0, )",
             "Microsoft.Extensions.Options.ConfigurationExtensions": "[8.0.0, )",
+            "NLog": "[5.2.8, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.4, )",
             "SourceKit.Generators.Builder": "[1.1.24, )",
             "StyleCop.Analyzers": "[1.2.0-beta.435, )",
             "Swashbuckle.AspNetCore": "[6.5.0, )",

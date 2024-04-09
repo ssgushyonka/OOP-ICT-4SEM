@@ -2,11 +2,19 @@
 
     <ItemGroup>
         <ProjectReference Include="..\..\Application\HelpHub.Application.Abstractions\HelpHub.Application.Abstractions.csproj"/>
+        <PackageReference Include="Itmo.Dev.Platform.Logging" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+        <PackageReference Remove="StyleCop.Analyzers" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Itmo.Dev.Platform.Postgres"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" />
         <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions"/>
     </ItemGroup>
+    
 
 </Project>
