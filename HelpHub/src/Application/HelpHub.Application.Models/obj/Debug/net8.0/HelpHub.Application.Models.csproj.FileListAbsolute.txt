@@ -1,0 +1,15 @@
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\bin\Debug\net8.0\HelpHub.Application.Models.deps.json
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\bin\Debug\net8.0\HelpHub.Application.Models.dll
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\bin\Debug\net8.0\HelpHub.Application.Models.pdb
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\bin\Debug\net8.0\HelpHub.Application.Models.xml
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.csproj.AssemblyReference.cache
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.AssemblyInfoInputs.cache
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.AssemblyInfo.cs
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.csproj.CoreCompileInputs.cache
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.dll
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\refint\HelpHub.Application.Models.dll
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.xml
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\HelpHub.Application.Models.pdb
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\ref\HelpHub.Application.Models.dll
+C:\Users\semen\Desktop\HelpHub\src\Application\HelpHub.Application.Models\obj\Debug\net8.0\Sentry.Attributes.cs
