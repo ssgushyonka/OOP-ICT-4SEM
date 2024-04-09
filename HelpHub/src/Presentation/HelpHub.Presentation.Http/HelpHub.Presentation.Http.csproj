@@ -3,9 +3,20 @@
     <PropertyGroup>
         <OutputType>Library</OutputType>
     </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\Application\HelpHub.Application.Models\HelpHub.Application.Models.csproj" />
+    </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Controllers\"/>
+      <PackageReference Include="Itmo.Dev.Platform.Logging" />
+      <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\HelpHub.Application.Contracts\HelpHub.Application.Contracts.csproj" />
     </ItemGroup>
 
 </Project>

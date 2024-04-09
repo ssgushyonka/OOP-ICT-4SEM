@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HelpHub.Presentation.Http.props" />
+</Project>
