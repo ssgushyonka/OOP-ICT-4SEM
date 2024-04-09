@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <ItemGroup>
+        <ProjectReference Include="..\..\Infrastructure\HelpHub.Infrastructure.Persistence\HelpHub.Infrastructure.Persistence.csproj" />
         <ProjectReference Include="..\HelpHub.Application.Abstractions\HelpHub.Application.Abstractions.csproj"/>
         <ProjectReference Include="..\HelpHub.Application.Contracts\HelpHub.Application.Contracts.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="Itmo.Dev.Platform.Logging" />
+        <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
     </ItemGroup>
 
