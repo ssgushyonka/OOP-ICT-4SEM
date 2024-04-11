@@ -4,17 +4,25 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HelpHub.Infrastructure.Persistence.Contexts;
 
-public class ApplicationDbContext : DbContext
+public sealed class ApplicationDbContext : DbContext
 {
-    public ApplicationDbContext() {}
+    public ApplicationDbContext()
+    {
+        Database.EnsureCreated();
+    }
+
     public ApplicationDbContext(DbContextOptions options) : base(options) { }
-    
-    public required DbSet<UserEntity> users { get; set; }
-    public required DbSet<EventEntity> events { get; set; }
-    public required DbSet<DonateEntity> donatess { get; set; }
-    public required DbSet<CollaborationEntity> collaboration { get; set; }
-    public required DbSet<OrganizatorEntity> organizator { get; set; }
-    
+
+    public required DbSet<UserEntity> Users { get; set; }
+
+    public required DbSet<EventEntity> Events { get; set; }
+
+    public required DbSet<DonateEntity> Donatess { get; set; }
+
+    public required DbSet<CollaborationEntity> Collaboration { get; set; }
+
+    public required DbSet<OrganizatorEntity> Organizator { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
@@ -24,7 +32,7 @@ public class ApplicationDbContext : DbContext
         modelBuilder.ApplyConfiguration(new DonateEntityConfiguration());
         modelBuilder.ApplyConfiguration(new CollaborationEntityConfiguration());
         modelBuilder.ApplyConfiguration(new OrganizatorEntityConfiguration());
-        
+
         base.OnModelCreating(modelBuilder);
     }
 }

@@ -1,36 +1,34 @@
+using HelpHub.Application.Abstractions.Persistence.Repositories;
+using HelpHub.Infrastructure.Persistence.Repositories;
+using Microsoft.Extensions.Configuration;
+
 namespace HelpHub.Infrastructure.Persistence.Extensions;
 
-using HelpHub.Application.Abstractions.Persistence;
-using HelpHub.Infrastructure.Persistence.Contexts;
 using HelpHub.Infrastructure.Persistence.Migrations;
 using HelpHub.Infrastructure.Persistence.Plugins;
 using Itmo.Dev.Platform.Postgres.Extensions;
 using Itmo.Dev.Platform.Postgres.Plugins;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection AddInfrastructurePersistence(this IServiceCollection collection, IConfiguration configuration)
+    public static IServiceCollection AddInfrastructurePersistence(
+        this IServiceCollection collection,
+        ConfigurationManager builderConfiguration)
     {
         collection.AddPlatformPostgres(builder => builder.BindConfiguration("Infrastructure:Persistence:Postgres"));
         collection.AddSingleton<IDataSourcePlugin, MappingPlugin>();
 
         collection.AddPlatformMigrations(typeof(IAssemblyMarker).Assembly);
         collection.AddHostedService<MigrationRunnerService>();
-        collection.AddDbContext<UserContext>(options =>
-            options.UseNpgsql(configuration.GetSection("Infrastructure:Persistence:Postgres:ConnectionString").Value));
-        collection.AddDbContext<EventContext>(options =>
-            options.UseNpgsql(configuration.GetSection("Infrastructure:Persistence:Postgres:ConnectionString").Value));
-        collection.AddDbContext<DonateContext>(options =>
-            options.UseNpgsql(configuration.GetSection("Infrastructure:Persistence:Postgres:ConnectionString").Value));
-        collection.AddDbContext<OrganizationContext>(options =>
-            options.UseNpgsql(configuration.GetSection("Infrastructure:Persistence:Postgres:ConnectionString").Value));
 
         // TODO: add repositories
-        collection.AddScoped<IPersistenceContext, PersistenceContext>();
-
+        // collection.AddScoped<IPersistenceContext, PersistenceContext>();
+        collection.AddScoped<IUserRepository, UserRepository>();
+        collection.AddScoped<IEventRepository, EventRepository>();
+        collection.AddScoped<IDonateRepository, DonateRepository>();
+        collection.AddScoped<IOrganizatorRepository, OrganizatorRepository>();
+        collection.AddScoped<ICollaborationRepository, CollaborationRepository>();
         return collection;
     }
 }
