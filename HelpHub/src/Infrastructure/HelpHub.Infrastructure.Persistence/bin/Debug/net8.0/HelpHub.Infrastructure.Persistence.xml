@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HelpHub.Infrastructure.Persistence</name>
+    </assembly>
+    <members>
+        <member name="T:HelpHub.Infrastructure.Persistence.Migrations.MigrationRunnerService">
+            <summary>
+                Background service for applying migrations.
+                It will automatically apply migrations on ASP application start.
+            </summary>
+        </member>
+        <member name="T:HelpHub.Infrastructure.Persistence.Plugins.MappingPlugin">
+            <summary>
+                Plugin for configuring NpgsqlDataSource's mappings
+                ie: enums, composite types
+            </summary>
+        </member>
+    </members>
+</doc>
